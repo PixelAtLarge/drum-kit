@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	background-image: url("http://static.snopes.com/wordpress/wp-content/uploads/2016/01/animal-muppet.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	box-sizing: border-box;
+  font-size: 10px;
+}
+
+.keys {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  min-height: 100vh;
+}
+
+.key {
+  background: rgba(255,255,255,0.4);
+  border: 4px solid black;
+  border-radius: 5px;
+  color: white;
+	font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 1rem .5rem;
+  text-align: center;
+  transition: all .07s;
+  width: 100px;
+}
+
+.playing {
+  border-color:#ffc600;
+  box-shadow: 0 0 10px #ffc600;
+  transform:scale(1.1);
+}
+
+kbd {
+	display: block;
+	font-family: 'Amatic SC', cursive;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
